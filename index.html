@@ -1,52 +1,92 @@
 <!doctype html>
-<html>
-    <head>
-        <meta charset=" utf-8" />
-        <title> Olivia Anastassov </title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-        <body background="IMG_6593.jpeg">
-            <div class="container">
-            <div><h1>Olivia &nbsp;Anastassov</h1></div>
-            <div><h2>
-                Home &nbsp;&nbsp;
-                <a href="about.html">About</a>&nbsp; &nbsp;
-                <a href = "email.html">Email</a> &nbsp;&nbsp;
-                <a href = "https://www.linkedin.com/in/oliviaanastassov/">Linkedin</a> &nbsp; &nbsp;
-                <a href = "https://docs.google.com/document/d/1Ndtr_SiGq-US5knTm51W7GPyE9ApX9oPCR48_Kb0ewE/edit?usp=sharing">Resume</a> &nbsp; &nbsp;
-                <a href = "https://github.com/oanastassov">GitHub</a>
-                </h2></div>
-            <style type = "text/css">
-                body{
-                    padding: 0;
-                    margin: 0;
-                    color:black;
-                }
-                h1
-                {
-                    font-size: 2em;
-                    margin:0;
-                    padding; 0;
-                    text-align: center;
-                    font-family: 'Times New Roman';
-                    position: absolute;
-                    top: 5%;
-                    left: 10%;
-                    transform: translateX(-35%) translateY(-30%);
-                }
-                h2
-                {
-                    font-size: 1.25em;
-                    margin:0;
-                    padding; 0;
-                    text-align: center;
-                    font-family: 'Times New Roman';
-                    position: absolute;
-                    top: 10%;
-                    left: 10%;
-                    transform: translateX(-20%) translateY(-30%);
-                }
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Zackary Jorquera</title>
+    <meta name="description" content="The personal website of Zack Jorquera.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/e52eed9dde.js" crossorigin="anonymous"></script>
+</head>
 
-            </style> 
-        </body>
+<body>
+	<header>
+		<div class="navwrap"> <nav>  
+			<ul>
+				<li><a href="index.html">About</a>
+				<li><a href="teaching.html">Teaching</a>
+				<li><a href="research.html">Research</a>
+				<li><a href="misc.html">Miscellaneous</a>
+				<li><a href="pdfs/CV-20230919.pdf">CV</a>
+			</ul>
+		</nav> </div>
+	</header>
+	<section>
+		<h1>Olivia Anastassov (She/Her)</h1>
+	</section>
+	<section id="pageContent">
+		<aside>
+			<div id="headshot">
+				<h3 id="aboutTextHeadshot"></h3>
+				<img id="headshotimg" src="images/headshot.jpg" alt="Hey, that's me.">
+			</div>
+			<div style="text-align:center">
+				<h2>Links:</h2>
+				<a href="https://scholar.google.com/citations?user=_KsgD-wAAAAJ&hl=en" target="_blank" title="Google Scholar">
+					<!-- One day, Font Awesome will add a Google Scholar icon, but that's not this day. And even if it is this day, I probably didn't realize and never fixed this. -->
+					<i class="fa-brands"><img src="https://static-00.iconduck.com/assets.00/google-scholar-square-icon-511x512-eoqcavm0.png"></i>
+				</a>
+				&nbsp;
+				<a href="https://github.com/zackjorquera" target="_blank" title="GitHub">
+					<i class="fa-brands fa-github"></i>
+				</a>
+				&nbsp;
+				<a href="https://gitlab.com/ZackJorquera" target="_blank" title="GitLab">
+					<i class="fa-brands fa-square-gitlab"></i>
+				</a>
+				&nbsp;
+				<a href="https://www.linkedin.com/in/zackary-jorquera-9b9318195" target="_blank" title="LinkedIn">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+			</div>
+		</aside>
+		<main role="main">
+			<article>
+				<h2>About Me</h2>
+				<p>
+					My name is Olivia. 
+    			</p><br /><p>
+        			I did my undergrad at Smith College, graduating with a double major in Computer Science and Psychology.
+    			</p>
+			</article>
+			<article>
+				<h2>Contact Information</h2>
+				<!-- <p>Email Me: olivia.anastassov [at] gmail [dot] com</p> -->
+				<p>Email Me:</p>
+				<ul>
+					<li> Work: <a href="#">olivia.anastassov [at] arisdata [dot] com</a></li>
+					<li> Personal: <a href="#">olivia.anastassov [at] gmail [dot] com</a></li>
+				</ul>
+			</article>
+			<article>
+				<h2>Research Interests</h2>
+				<p>AI ethics, computational biology, drug discovery</p>
+			</article>
+			<article>
+				<h2>Hobbies</h2>
+				<p onmouseover="changeHeadshotImg1()" onmouseout="changeHeadshotImg2()">
+					When I'm not working I like to rock climb, ski, sail, and spend time with my dog.
+				</p>
+			</article>
+		</main>
+	</section>
+	<footer>
+		<p><a href="https://html5-templates.com/" target="_blank" rel="nofollow">From HTML5 Templates |</a> &copy; Copyright 2022</p>
+	</footer>
+
+</body>
+
 </html>
